@@ -8,21 +8,30 @@
 
 <style>
   table, td, th {
-  border: 1px solid gainsboro;
+  border: 2px solid gainsboro;
   border-collapse: collapse;
-  padding-left: 100px;
-  padding-right: 100px;
 }
   #a {
-    background-color: rgb(181, 248, 181);
+    background-color: rgb(22, 121, 22);
+    color: white;
   }
 
   #b {
-    background-color: rgb(159, 179, 130);
+    background-color: rgb(5, 88, 5);
     text-align: center;
+    color: white;
   }
   #rodape {
     text-align: center;
+    background-color: rgb(190, 186, 186);
+
+  }
+  #menuzinho{
+    margin: 20px;
+    background-color: rgb(190, 186, 186);
+  }
+  #menuzinho th {
+    background-color: rgb(141, 138, 138);
   }
 </style>
 
@@ -38,15 +47,17 @@
 
    <tr>
     <td rowspan="2">
-      <table>
+      <table id="menuzinho">
         <tr>
           <th>Menu</th>
         </tr>
         <tr>
           <td>
             <ul>
-              <li>oi</li>
-              <li>oi</li>
+              <li> <a href="">Inicio</a></li>
+              <li> <a href="">Sobre</a></li>
+              <li> <a href="">Serviços</a></li>
+              <li> <a href="">Contatos</a></li>
             </ul>
           </td>
         </tr>
@@ -55,15 +66,16 @@
   </tr>
 
   <tr>
-    <td> 
-      Bem vindo
+    <td>
+      <b>Bem-vindo!</b> 
       <hr>
-      Bla bla bla
+      <p>Este é um exemplo desite criado utilizando tabelas.</p>
+      <p>Antigamente, esse era um método comum para estruturar páginas.</p>
     </td>
   </tr>
 
    <tr id="rodape">
-    <td colspan="2">2026</td>
+    <td colspan="2">© 2026 - Feito por Bia</td>
    </tr>
   </table>
 
